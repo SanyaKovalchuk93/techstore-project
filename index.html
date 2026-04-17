@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechStore</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/css/main.css">
+  </head>
+  <body>
+
+    <div class="page">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <div class="header__logo"><img loading="lazy" src="/src/images/logo.svg" alt="Logo"></div>
+          <button class="header__burger js-burger">
+
+            <span></span>
+            <span></span>
+
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu js-mobile-menu">
+      <div class="container">
+        <div class="mobile-menu__list">
+
+          <div class="mobile-menu__item"><div class="mobile-menu__title">Home</div></div>
+
+          <div class="mobile-menu__item mobile-menu__item--has-dropdown js-dropdown">
+            <div class="mobile-menu__title">
+              Shop
+              <i class="mobile-menu__arrow">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="black" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </i>
+            </div>
+            <div class="mobile-menu__dropdown">
+              <div class="mobile-menu__link">Smartphones</div>
+              <div class="mobile-menu__link">Laptops</div>
+              <div class="mobile-menu__link">Accessories</div>
+            </div>
+          </div>
+
+          <div class="mobile-menu__item mobile-menu__item--has-dropdown js-dropdown">
+            <div class="mobile-menu__title">
+              Collections
+              <i class="mobile-menu__arrow">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="black" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </i>
+            </div>
+            <div class="mobile-menu__dropdown">
+              <div class="mobile-menu__link">New Arrivals</div>
+              <div class="mobile-menu__link">Best Sellers</div>
+              <div class="mobile-menu__link">Sale</div>
+            </div>
+          </div>
+
+          <div class="mobile-menu__item mobile-menu__item--has-dropdown js-dropdown">
+            <div class="mobile-menu__title">
+              Company
+              <i class="mobile-menu__arrow">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="black" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </i>
+            </div>
+            <div class="mobile-menu__dropdown">
+              <div class="mobile-menu__link">About</div>
+              <div class="mobile-menu__link">FAQ</div>
+              <div class="mobile-menu__link">Reviews</div>
+              <div class="mobile-menu__link">Contact</div>
+            </div>
+          </div>
+
+          <div class="mobile-menu__item mobile-menu__item--has-dropdown js-dropdown">
+            <div class="mobile-menu__title">
+              Support
+              <i class="mobile-menu__arrow">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="black" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </i>
+            </div>
+            <div class="mobile-menu__dropdown">
+              <div class="mobile-menu__link">Contact Us</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <main class="main">
+
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__grid overflow-scroll">
+            <div class="hero__card">
+              <div class="hero__image">
+                <img loading="lazy" src="/src/images/img-card-1.webp" alt="Image Card">
+              </div>
+              <div class="hero__text">
+                <h2 class="hero__title">New Arrivals</h2>
+                <a href="#" class="link">View Product</a>
+              </div>
+            </div>
+            <div class="hero__card">
+              <div class="hero__image">
+                <img loading="lazy" src="/src/images/img-card-2.webp" alt="Image Card">
+              </div>
+              <div class="hero__text">
+                <h2 class="hero__title">Spring Sale Up to 50% Off</h2>
+                <a href="#" class="link">View Product</a>
+              </div>
+            </div>
+            <div class="hero__card">
+              <div class="hero__image">
+                <img loading="lazy" src="/src/images/img-card-3.webp" alt="Image Card">
+              </div>
+              <div class="hero__text">
+                <h2 class="hero__title">Free Shipping Over $99</h2>
+                <a href="#" class="link">View Product</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BREADCRUMBS -->
+      <div class="breadcrumbs">
+        <div class="container">
+          <ul class="overflow-scroll">
+            <li><a href="">Home</a></li> 
+            <li><a href="">Electronics</a></li> 
+            <li><a href="">Smartphones</a></li> 
+            <li><a href="">Android</a></li>  
+            <li><a href="">Prem</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- REVIEWS -->
+      <section class="reviews">
+        <div class="container">
+          <div class="reviews__card">
+            <div class="reviews__stars">
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.5 19.2371L4.77392 24L6.87434 15.1111L0 9.1675L9.0234 8.43781L12.5 0L15.9766 8.43781L25 9.1675L18.1257 15.1111L20.2261 24L12.5 19.2371Z" fill="#42307D" fill-opacity="0.8"/>
+              </svg>
+
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.5 19.2371L4.77392 24L6.87434 15.1111L0 9.1675L9.0234 8.43781L12.5 0L15.9766 8.43781L25 9.1675L18.1257 15.1111L20.2261 24L12.5 19.2371Z" fill="#42307D" fill-opacity="0.8"/>
+              </svg>
+
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.5 19.2371L4.77392 24L6.87434 15.1111L0 9.1675L9.0234 8.43781L12.5 0L15.9766 8.43781L25 9.1675L18.1257 15.1111L20.2261 24L12.5 19.2371Z" fill="#42307D" fill-opacity="0.8"/>
+              </svg>
+
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.5 19.2371L4.77392 24L6.87434 15.1111L0 9.1675L9.0234 8.43781L12.5 0L15.9766 8.43781L25 9.1675L18.1257 15.1111L20.2261 24L12.5 19.2371Z" fill="#42307D" fill-opacity="0.8"/>
+              </svg>
+
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.5 19.2371L4.77392 24L6.87434 15.1111L0 9.1675L9.0234 8.43781L12.5 0L15.9766 8.43781L25 9.1675L18.1257 15.1111L20.2261 24L12.5 19.2371Z" fill="#42307D" fill-opacity="0.8"/>
+              </svg>
+
+            </div>
+            <h3 class="reviews__title">Loved by tons of people! Real users, real results.</h3>
+            <p class="reviews__text">
+              Rated 4.8 out of 5 by over 7,809 customers — from dread beginners to seasoned pros.
+            </p>
+            <a href="#" class="link link--full">View Product</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS -->
+      <section class="products">
+        <div class="container">
+          <h2 class="products__title">You May Also Like</h2>
+
+          <div class="products__grid">
+
+            <!-- CARD -->
+            <div class="product-card">
+              <div class="product-card__image">
+                <button  class="product-card__favorites">
+                  <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.2857 17.3427C6.46442 15.233 0.875 10.4098 0.875 6.06944C0.875 3.20063 2.98026 0.875 5.875 0.875C7.375 0.875 8.875 1.375 10.875 3.375C12.875 1.375 14.375 0.875 15.875 0.875C18.7697 0.875 20.875 3.20063 20.875 6.06944C20.875 10.4098 15.2856 15.233 12.4643 17.3427C11.5149 18.0526 10.2351 18.0526 9.2857 17.3427Z" stroke="black" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button >
+                <img loading="lazy" src="/src/images/img-product-1.webp" alt="Image Product">
+              </div>
+              <div class="product-card__info">
+                <div class="product-card__title">iPhone 15 Pro</div>
+                <div class="product-card__specs">256GB · 8GB RAM · Black</div>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$999</span>
+                  <span class="product-card__price-old">$1,199</span>
+                </div>
+              </div>
+              <a href="#" class="link link--full">Add</a>
+            </div>
+
+            <!-- CARD -->
+            <div class="product-card">
+              <div class="product-card__image">
+                <button  class="product-card__favorites">
+                  <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.2857 17.3427C6.46442 15.233 0.875 10.4098 0.875 6.06944C0.875 3.20063 2.98026 0.875 5.875 0.875C7.375 0.875 8.875 1.375 10.875 3.375C12.875 1.375 14.375 0.875 15.875 0.875C18.7697 0.875 20.875 3.20063 20.875 6.06944C20.875 10.4098 15.2856 15.233 12.4643 17.3427C11.5149 18.0526 10.2351 18.0526 9.2857 17.3427Z" stroke="black" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button >
+                <img loading="lazy" src="/src/images/img-product-2.webp" alt="Image Product">
+              </div>
+              <div class="product-card__info">
+                <div class="product-card__title">Google Pixel 8</div>
+                <div class="product-card__specs">128GB · 8GB RAM · Hazel</div>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$599</span>
+                  <span class="product-card__price-old">$699</span>
+                </div>
+              </div>
+              <a href="#" class="link link--full">Add</a>
+            </div>
+
+          </div>
+
+          <!-- BIG CARD -->
+          <div class="product-card product-card--big">
+            <div class="product-card__image">
+              <button  class="product-card__favorites">
+                <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.2857 17.3427C6.46442 15.233 0.875 10.4098 0.875 6.06944C0.875 3.20063 2.98026 0.875 5.875 0.875C7.375 0.875 8.875 1.375 10.875 3.375C12.875 1.375 14.375 0.875 15.875 0.875C18.7697 0.875 20.875 3.20063 20.875 6.06944C20.875 10.4098 15.2856 15.233 12.4643 17.3427C11.5149 18.0526 10.2351 18.0526 9.2857 17.3427Z" stroke="black" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button >
+              <img loading="lazy" src="/src/images/img-product-1.webp" alt="Image Product">
+            </div>
+
+            <div class="product-card__info">
+              <div class="product-card__badge">New Release</div>
+              <div class="product-card__title product-card__title--large">
+                Samsung Galaxy S24 Ultra
+              </div>
+              <div class="product-card__specs product-card__specs--large">256GB · 8GB RAM · Black</div>
+              <div class="product-card__prices product-card__prices--large">
+                <span class="product-card__price product-card__price--large">$999</span>
+                <span class="product-card__price-old product-card__price-old--large">$1,199</span>
+              </div>
+            </div>
+
+            <a href="#" class="link link--full">View Product</a>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact">
+        <div class="container">
+          <h2 class="contact__title">Get in Touch</h2>
+
+          <form class="contact-form" action="send.php" method="POST">
+            <div class="contact-form__field">
+              <label>Name <span>*</span></label>
+              <div class="input-wrapper">
+                <input type="text" placeholder="Name" />
+                <span class="arrow">
+
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 6.00003C12 6.00003 9.05407 10 8 10C6.94587 10 4 6 4 6" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+
+                </span>
+              </div>
+            </div>
+
+            <div class="contact-form__field">
+              <label>Email <span>*</span></label>
+              <div class="input-wrapper">
+                <input type="email" placeholder="Email" />
+                <span class="arrow">
+
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 6.00003C12 6.00003 9.05407 10 8 10C6.94587 10 4 6 4 6" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+
+                </span>
+              </div>
+            </div>
+
+            <div class="contact-form__field">
+              <label>Message <span>*</span></label>
+              <textarea placeholder="Message"></textarea>
+            </div>
+
+            <button class="link link--full">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- BOTTOM NAV -->
+    <nav class="bottom-nav">
+      <a href="#" class="bottom-nav__item bottom-nav__item--active">
+
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15.0002 17C14.2007 17.6224 13.1504 18 12.0002 18C10.8499 18 9.79971 17.6224 9.00018 17M3 11.9896V14.5C3 17.7998 3 19.4497 4.02513 20.4749C5.05025 21.5 6.70017 21.5 10 21.5H14C17.2998 21.5 18.9497 21.5 19.9749 20.4749C21 19.4497 21 17.7998 21 14.5V11.9896C21 10.3083 21 9.46773 20.6441 8.74005C20.2882 8.01237 19.6247 7.49628 18.2976 6.46411L16.2976 4.90855C14.2331 3.30285 13.2009 2.5 12 2.5C10.7991 2.5 9.76689 3.30285 7.70242 4.90855L5.70241 6.46411C4.37533 7.49628 3.71179 8.01237 3.3559 8.74005C3 9.46773 3 10.3083 3 11.9896Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+      </a>
+      <a href="#" class="bottom-nav__item">
+
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3.88886 9.66294C4.39331 10 5.09554 10 6.5 10C7.90447 10 8.6067 10 9.11115 9.66294C9.32953 9.51702 9.51703 9.32952 9.66294 9.11114C10 8.60669 10 7.90446 10 6.5C10 5.09554 10 4.39331 9.66294 3.88886C9.51703 3.67048 9.32953 3.48298 9.11115 3.33706C8.6067 3 7.90447 3 6.5 3C5.09554 3 4.39331 3 3.88886 3.33706C3.67048 3.48298 3.48298 3.67048 3.33707 3.88886C3 4.39331 3 5.09554 3 6.5C3 7.90446 3 8.60669 3.33707 9.11114C3.48298 9.32952 3.67048 9.51702 3.88886 9.66294Z" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M14.8888 9.66294C15.3933 10 16.0955 10 17.5 10C18.9044 10 19.6067 10 20.1111 9.66294C20.3295 9.51702 20.517 9.32952 20.6629 9.11114C21 8.60669 21 7.90446 21 6.5C21 5.09554 21 4.39331 20.6629 3.88886C20.517 3.67048 20.3295 3.48298 20.1111 3.33706C19.6067 3 18.9044 3 17.5 3C16.0955 3 15.3933 3 14.8888 3.33706C14.6705 3.48298 14.483 3.67048 14.337 3.88886C14 4.39331 14 5.09554 14 6.5C14 7.90446 14 8.60669 14.337 9.11114C14.483 9.32952 14.6705 9.51702 14.8888 9.66294Z" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M3.88886 20.6629C4.39331 21 5.09554 21 6.5 21C7.90447 21 8.6067 21 9.11115 20.6629C9.32953 20.517 9.51703 20.3295 9.66294 20.1111C10 19.6067 10 18.9045 10 17.5C10 16.0955 10 15.3933 9.66294 14.8889C9.51703 14.6705 9.32953 14.483 9.11115 14.3371C8.6067 14 7.90447 14 6.5 14C5.09554 14 4.39331 14 3.88886 14.3371C3.67048 14.483 3.48298 14.6705 3.33707 14.8889C3 15.3933 3 16.0955 3 17.5C3 18.9045 3 19.6067 3.33707 20.1111C3.48298 20.3295 3.67048 20.517 3.88886 20.6629Z" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M14.8888 20.6629C15.3933 21 16.0955 21 17.5 21C18.9044 21 19.6067 21 20.1111 20.6629C20.3295 20.517 20.517 20.3295 20.6629 20.1111C21 19.6067 21 18.9045 21 17.5C21 16.0955 21 15.3933 20.6629 14.8889C20.517 14.6705 20.3295 14.483 20.1111 14.3371C19.6067 14 18.9044 14 17.5 14C16.0955 14 15.3933 14 14.8888 14.3371C14.6705 14.483 14.483 14.6705 14.337 14.8889C14 15.3933 14 16.0955 14 17.5C14 18.9045 14 19.6067 14.337 20.1111C14.483 20.3295 14.6705 20.517 14.8888 20.6629Z" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+        </svg>
+
+      </a>
+      <a href="#" class="bottom-nav__item">
+
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10.4112 20.4677C7.58991 18.358 2.00049 13.5348 2.00049 9.19444C2.00049 6.32563 4.10575 4 7.00049 4C8.50049 4 10.0005 4.5 12.0005 6.5C14.0005 4.5 15.5005 4 17.0005 4C19.8952 4 22.0005 6.32563 22.0005 9.19444C22.0005 13.5348 16.4111 18.358 13.5898 20.4677C12.6404 21.1776 11.3606 21.1776 10.4112 20.4677Z" stroke="black" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+      </a>
+      <a href="#" class="bottom-nav__item">
+
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 9.5C16 5.63401 14.2091 2 12 2C9.79086 2 8 5.63401 8 9.5M8 7H16C17.8856 7 18.8284 7 19.4142 7.58579C20 8.17157 20 9.11438 20 11V15C20 18.2998 20 19.9497 18.9749 20.9749C17.9497 22 16.2998 22 13 22H11C7.70017 22 6.05025 22 5.02513 20.9749C4 19.9497 4 18.2998 4 15V11C4 9.11438 4 8.17157 4.58579 7.58579C5.17157 7 6.11438 7 8 7Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+      </a>
+    </nav>
+
+  </div>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
